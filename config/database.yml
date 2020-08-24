@@ -24,6 +24,7 @@ production:
   adapter: mysql2
   charset: utf8mb4
   encoding: utf8mb4
+  collation: utf8mb4_unicode_ci
   port: <%= ENV['RDS_PORT'] %>
   host: <%= ENV['RDS_HOSTNAME'] %>
   database: <%= ENV['RDS_DB_NAME'] %>
